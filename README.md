@@ -7,7 +7,13 @@ In addition to v0.10.0 it contains sso authentication which is required for some
 
 ## Docker Image
 
-Use the docker image and start terraforming with the cloudfoundry provider. No further provider installation necessary.
+Use the docker image and copy the cloudfoundry provider into your project directory like this (assumes you are in your project folder):
+
+```
+cp -r /terraform.d .
+```
+
+Start terraforming with the cloudfoundry provider. No further provider installation necessary.
 
 ```
 terraform init
