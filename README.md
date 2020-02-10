@@ -3,7 +3,11 @@
 Terraform provider for usage with cloud foundry.
 This terraform provider was compiled from the sources found on https://github.com/cloudfoundry-community/terraform-provider-cf.
 It is compiled from a pre v0.11.0 state.
-In addition to v0.10.0 it contains sso authentication which is required for some deployments.
+In addition to v0.10.0 it contains
+
+- sso authentication which is required for some deployments.
+- service broker guid filter for services
+- data source for user defined service instances
 
 ## Docker Image
 
