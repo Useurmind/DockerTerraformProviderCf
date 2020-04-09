@@ -9,6 +9,10 @@ In addition to v0.10.0 it contains
 - service broker guid filter for services
 - data source for user defined service instances
 
+__Update:__
+
+- Tested the v0.11.0 provider. It is still missing the data source for user defined service instances. But the code is in dev and will probably be part of the next relase 0.12.0.
+
 ## Docker Image
 
 Use the docker image and copy the cloudfoundry provider into your project directory like this (assumes you are in your project folder):
@@ -34,4 +38,4 @@ On linux for the root user (e.g. in docker) the plugin needs to go into `/terraf
 
 ## NOTICE
 
-Should deprecate after v0.11 is release.
+Should deprecate after v0.12 is release.
